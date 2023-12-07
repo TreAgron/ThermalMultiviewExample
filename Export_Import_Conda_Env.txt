@@ -1,0 +1,16 @@
+conda pack -n Py38Geoprocessing -o "O:/Data-Work/22_Plant_Production-CH/224_Digitalisation/Simon_Treier_Files/ThermalMultiviewExample/Py38Geoprocessing.tar.gz"
+
+conda pack -n Agisoft_Template_ST_conda_test -o "O:/Data-Work/22_Plant_Production-CH/224_Digitalisation/Simon_Treier_Files/ThermalMultiviewExample/Py38Agisoft.tar.gz"
+
+mkdir -p my_env
+tar -xzf my_env.tar.gz -C "O:/Data-Work/22_Plant_Production-CH/224_Digitalisation/Simon_Treier_Files/ThermalMultiviewExample/Py38Geoprocessing.tar.gz"
+tar -xzf my_env.tar.gz -C "O:/Data-Work/22_Plant_Production-CH/224_Digitalisation/Simon_Treier_Files/ThermalMultiviewExample/Py38Agisoft.tar.gz"
+
+
+conda pack -n Py38Geoprocessing -o "O:/Data-Work/22_Plant_Production-CH/224_Digitalisation/Simon_Treier_Files/ThermalMultiviewExample/Py38Geoprocessing.tar.gz"
+
+conda pack -n Agisoft_Template_ST_conda_test -o "O:/Data-Work/22_Plant_Production-CH/224_Digitalisation/Simon_Treier_Files/ThermalMultiviewExample/Py38Agisoft.tar.gz"
+
+mkdir -p "C:/ProgramData/Anaconda3/envs/Py38Geoprocessing"
+
+tar -xvzf O:\Data-Work\22_Plant_Production-CH\224_Digitalisation\Simon_Treier_Files\ThermalMultiviewExample\Py38Geoprocessing.tar.gz -C C:\ProgramData\Anaconda3\envs\Py38Geoprocessing
