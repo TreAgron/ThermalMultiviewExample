@@ -4,7 +4,7 @@ This repository is a tutorial to use multi-view for analysis of drone-base therm
 
 ## General introduction on multi-view
 
-This protocol present a pipeline to use multi-view back projection for analyzing thermal images that were taken with a drone. Compared to analyzing thermal images on orthomosaics directly, this approach allows to include effects of measurement time and viewing geometry in the analysis as well as to improve spatial correction of the measurements. Same as for the orthomosaic analysis, an orthomodel has to be created but the analysis is done on single images instead of orthomosaics by means back projection. The orthomosaic serves only as a reference to orient the single images in space for analysis.
+This protocol present a pipeline to use multi-view back projection for analyzing thermal images that were taken with a drone. Compared to analyzing thermal images on orthomosaics directly, this approach allows to include effects of measurement time and viewing geometry in the analysis as well as to improve spatial correction of the measurements. Same as for the orthomosaic analysis, images have to be aligned but the analysis is done on single images instead of orthomosaics by means back projection. Aligning the images is only done to orient the single images in space for analysis (georeferencing).
 The approach can be used to analyse thermal images that were taken during a drone mapping campaign of an agricultural plot experiments.
 
 ## Tutorial
@@ -15,8 +15,8 @@ In short:
 1. Plot shape files are created python and and oriented in Qgis
 1. Images are aligned in Agisoft
 1. Shapes are projected on single images
-1. From radiometric .jpg files, .tiff files are derived that represent temperature [C°] * 1000 
-1. Plot-wise temperature is extracted (plot-wise mean and all percentiles for all image-plot combinations
+1. From radiometric .jpg files, .tiff files are derived that represent temperature as [C°] * 1000 
+1. Plot-wise temperature is extracted (plot-wise mean and all percentiles for all image-plot combinations)
 1. Plot centroids are extracted for subsequent calculations of viewing geometries
 1. Viewing geometries are calculated and timestamps extracted for each plot on each images
 1. Single output files are merged to a complete file
