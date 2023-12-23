@@ -24,10 +24,10 @@ In short:
 Alle  data for this example is provided, also the results of single steps that provide the input of a subsequent step are provided.
 
 ![Example of Agisoft](Images/AgisoftExample.PNG)
-*Example of an aligned thermal images in an Agisoft project*
+*Example of aligned thermal images in an Agisoft project.*
 
 ![Examle of a geojson shape file ](Images/GeoJson.png)
-*Example of a geojson shape file. Different colours indicate different experimental treatments. Centroids are in red*
+*Example of a geojson shape file. Different colours indicate different experimental treatments. Centroids are in red.*
 
 
 ### Code for spatial correction in R-Package SpATS
