@@ -32,10 +32,11 @@ Alle  data for this example is provided, also the results of single steps that p
 
 A basic code for spatial correction in SpATS to provide a starting point:
 
+Load the SpATS package:
 ```R
 library(SpATS)
 ```
-Example of spats model
+Example of spats model:
 ```R
 SpATS_fit <- SpATS(response = "Trait_of_Interest", random = ~ Xf + Yf + Plot_label + genotype:block_factor_names.treatment, fixed = ~ block_factor_names.treatment + block_factor_names.replication,
                        spatial = ~PSANOVA(X, Y, nseg = c(nX, nY), nest.div = c(1,1),
