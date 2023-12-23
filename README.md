@@ -12,17 +12,16 @@ The approach can be used to analyse thermal images that were taken during a dron
 The numbered folders contain code, the folders without numbering contain example data. Work through the code in the order indicated. Inside the folders, the different processing steps and files are described. 
 
 In short:
-1. Plot shape files are created python and and oriented in Qgis
-1. Images are aligned in Agisoft
+1. Plot shape files are created in Python and and georeferenced in Qgis
+1. Images are aligned in Agisoft Metashape
 1. Shapes are projected on single images
 1. From radiometric .jpg files, .tiff files are derived that represent temperature as [C°] * 1000 
 1. Plot-wise temperature is extracted (plot-wise mean and all percentiles for all image-plot combinations)
 1. Plot centroids are extracted for subsequent calculations of viewing geometries
 1. Viewing geometries are calculated and timestamps extracted for each plot on each images
-1. Single output files are merged to a complete file
+1. Single output files are merged to a complete file for subsequent analysis, e.g. in R
 
-Alle  data for this example is provided, also the results of single steps that provide the input of a subsequent step are provided. Follow the paths in the individual codes.
-
+Alle  data for this example is provided, also the results of single steps that provide the input of a subsequent step are provided.
 
 ![Example of Agisoft](Images/AgisoftExample.PNG)
 *Example of an aligned thermal images in an Agisoft project*
