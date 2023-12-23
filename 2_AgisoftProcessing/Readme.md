@@ -7,3 +7,5 @@ Python file to process images of individual flights in the Agisoft Metashape sta
 
 AgisoftProcessingPlan.csv:
 The processing plan to define processing parameters and data paths for individual flights
+
+If you don't have an Agisoft Metashape licence, you might have look at the example project provided with the free of charge [Agisoft Viewer](https://www.agisoft.com/downloads/installer)

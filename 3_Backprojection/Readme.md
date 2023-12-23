@@ -6,7 +6,7 @@ Python file to project plot shapes from the geojson shape file to all images of 
 Input needed:
 - An Agisoft Metashape project with aligned and georeferenced thermal images
 * Digital elevation model (DEM), based on RGB or multispectral or multispectral data, which provide a higher spatial resolution thn thermal images.
-+ A geojson with the shapes of the plots. Each plot needs a unique string as identifier. The identifiers must be named 'plot-label'
+* A geojson with the shapes of the plots. Each plot needs a unique string as identifier. The identifiers must be named 'plot-label'
 
 The Agisoft Metashape project , the DEM and the geojson must all be in the same cartesian geographic reference system.
 
@@ -14,5 +14,5 @@ The Agisoft Metashape project , the DEM and the geojson must all be in the same 
 If geometry type of the geojson is Multipolygon and not polygon, the backprojection won't work. To change geometry type from Multipolygon to Polygon, open the geojson file in Qgis and:
 - Vector
 * Geometry Tools
-+ Multiparts to Singleparts
-+ Save
+* Multiparts to Singleparts
+* Save
