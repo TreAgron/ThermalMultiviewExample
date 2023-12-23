@@ -12,7 +12,7 @@ The approach can be used to analyse thermal images that were taken during a dron
 The numbered folders contain code, the folders without numbering contain example data. Work through the code in the order indicated. Inside the folders, the different processing steps and files are described in short.
 
 ![Example of Agisoft](Images/AgisoftExample.PNG)
-*image_caption*
+*Example of an aligned thermal Agisoft project*
 
 
 ### Code for spatial correction in R-Package SpATS
