@@ -1,6 +1,6 @@
 # Multi-view for thermography
 
-This repository is a tutorial to use multi-view for analysis of drone-base thermal images. It contains a description of the process, example code and all example example data required. It's suggested to work through this example and make it run on your computer before you try it on your own data.
+This repository is a tutorial to use multi-view for analysis of drone-base thermal images. It contains a description of the process, example code and all example data required. It's suggested to work through this example and make it run on your computer before you try it on your own data.
 
 ## General introduction on multiview
 
