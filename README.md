@@ -26,6 +26,9 @@ Alle  data for this example is provided, also the results of single steps that p
 ![Example of Agisoft](Images/AgisoftExample.PNG)
 *Example of an aligned thermal images in an Agisoft project*
 
+![Examle of a geojson shape file ](Images/GeoJson.png)
+*Example of a geojson shape file. Different colours indicate different experimental treatments. Centroids are in red*
+
 
 ### Code for spatial correction in R-Package SpATS
 
