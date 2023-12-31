@@ -12,7 +12,7 @@ from timeit import default_timer as timer # part of python standard library
 from datetime import timedelta, datetime # part of python standard library
 
 # Define main directory path
-directory_path = r'O:\Data-Work\22_Plant_Production-CH\224_Digitalisation\Simon_Treier_Files\ThermalMultiviewExample'
+directory_path = r'C:\...\ThermalMultiviewExample'
 
 # Adding a new path here allows python to find the Agisoft_functions file
 sys.path.append(os.path.join(directory_path, '2_AgisoftProcessing\Functions'))
@@ -83,6 +83,6 @@ for i in range(0, len(df_processing_plan)):
 
     end = timer()
     print('Time passed: ', timedelta(seconds=end - start))
-
+w
     if list_job_instructions[i].activated == "FALSE":
         pass

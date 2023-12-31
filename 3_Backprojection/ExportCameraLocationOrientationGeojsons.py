@@ -9,7 +9,7 @@ import numpy as np
 
 import Metashape
 
-directory_path = r'O:\Data-Work\22_Plant_Production-CH\224_Digitalisation\Simon_Treier_Files\ThermalMultiviewExample'
+directory_path = r'C:\...\ThermalMultiviewExample'
 
 GEOJSON = os.path.join(directory_path, 'GeojsonsExample\Example.geojson')
 DEM = os.path.join(directory_path, 'DEM\DEM.tif')

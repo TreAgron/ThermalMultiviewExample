@@ -9,7 +9,7 @@ import os
 import matplotlib.pyplot as plt
 
 
-directory_path = r'O:\Data-Work\22_Plant_Production-CH\224_Digitalisation\Simon_Treier_Files\ThermalMultiviewExample'
+directory_path = r'C:\...\ThermalMultiviewExample'
 
 geojson_paths = [os.path.join(directory_path, 'ThermalData\Masks_1'),
                  os.path.join(directory_path, 'ThermalData\Masks_2')]

@@ -9,7 +9,7 @@ import sys
 import timeit
 import importlib
 
-directory_path = r'O:\Data-Work\22_Plant_Production-CH\224_Digitalisation\Simon_Treier_Files\ThermalMultiviewExample'
+directory_path = r'C:\...\ThermalMultiviewExample'
 
 # Adding a new path here allows python to find the Agisoft_functions file
 sys.path.append(os.path.join(directory_path, '4_ExtractThermalData\Functions'))

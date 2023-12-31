@@ -5,7 +5,7 @@ import numpy as np
 from timeit import default_timer as timer
 from datetime import timedelta, datetime
 
-directory_path = r'O:\Data-Work\22_Plant_Production-CH\224_Digitalisation\Simon_Treier_Files\ThermalMultiviewExample'
+directory_path = r'C:\...\ThermalMultiviewExample'
 
 files_path = Path(os.path.join(directory_path, 'ThermalData'))
 file_list = list(files_path.glob('**/Angles*.csv'))

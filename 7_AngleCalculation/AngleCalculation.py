@@ -26,7 +26,7 @@ import json
 
 # Adding a new path here allows python to find the Agisoft_functions file
 
-directory_path = r'O:\Data-Work\22_Plant_Production-CH\224_Digitalisation\Simon_Treier_Files\ThermalMultiviewExample'
+directory_path = r'C:\...\ThermalMultiviewExample'
 
 sys.path.append(os.path.join(directory_path, '7_AngleCalculation\Functions'))
 import SunPosCalc

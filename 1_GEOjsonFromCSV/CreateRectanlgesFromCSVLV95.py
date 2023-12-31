@@ -7,7 +7,7 @@ import os  # part of python standard library
 import pandas as pd  # version: 1.4.4
 import numpy as np  # version: 1.23.1
 
-directory_path = r'O:\Data-Work\22_Plant_Production-CH\224_Digitalisation\Simon_Treier_Files\ThermalMultiviewExample\\'
+directory_path = r'C:\...\ThermalMultiviewExample\\'
 
 df_design = pd.read_csv(os.path.join(directory_path, 'DesignExample\ExampleAssign.csv'), sep=";")
 df_design = df_design.reset_index()  # make sure indexes pair with number of rows

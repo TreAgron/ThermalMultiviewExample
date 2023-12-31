@@ -1,7 +1,7 @@
 ### Description of the files in this folder:
 
 ExportCameraLocationOrientationGeojsons.py:
-Python file to project plot shapes from the geojson shape file to all images of individual flights in the Agisoft Metashape stand-alone Python module.
+Python file to project plot shapes from the geojson shape file to all images of individual flights in the Agisoft Metashape stand-alone Python module. Mind to adapt the directory_path in line 12.
 
 Input needed:
 - An Agisoft Metashape project with aligned and georeferenced thermal images

@@ -9,7 +9,7 @@ The approach can be used to analyse thermal images that were taken during a dron
 
 ## Tutorial
 
-The numbered folders contain code, the folders without numbering contain example data. Work through the code in the order indicated. Inside the folders, the different processing steps and files are described. 
+The numbered folders contain code and/or instruction on the respective step, the folders without numbering contain example data. Work through the code in the order indicated. Inside the folders, the different processing steps and files are described. 
 
 In short:
 1. Plot shape files are created in Python and and georeferenced in Qgis
