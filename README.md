@@ -18,7 +18,7 @@ In short:
 1. From radiometric .jpg files, .tiff files are derived that represent temperature as [C°] * 1000 
 1. Plot-wise temperature is extracted (plot-wise mean and all percentiles for all image-plot combinations)
 1. Plot centroids are extracted for subsequent calculations of viewing geometries
-1. Viewing geometries are calculated and timestamps extracted for each plot on each images
+1. Viewing geometries are calculated and timestamps extracted for each plot on each images, the final percentile for further data analysis is chosen at this step
 1. Single output files are merged to a complete file for subsequent analysis, e.g. in R
 
 Alle  data for this example is provided, also the results of single steps that provide the input of a subsequent step are provided.
