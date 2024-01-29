@@ -38,11 +38,11 @@ Load the SpATS package:
 ```R
 library(SpATS)
 ```
-Example of spats model:
+Example of spats model for temporal/spatial correction:
 ```R
-SpATS_fit <- SpATS(response = "Trait_of_Interest", random = ~ Xf + Yf + Plot_label + genotype:block_factor_names.treatment, fixed = ~ block_factor_names.treatment + block_factor_names.replication,
-                       spatial = ~PSANOVA(X, Y, nseg = c(nX, nY), nest.div = c(1,1),
-                       genotype = "genotype", genotype.as.random = TRUE, data = df_for_correction,
-                       weights = df_for_correction$weights,
-                       control = list(maxit = 100, tolerance = 1e-03, monitoring = 0))
+SpATS_fit_SpATS_aggreg <- SpATS(response = "Trait_of_Interest", random = ~ Xf + Yf + Plot_label + FlightDuratExposF + genotype:block_factor_names.treatment + block_factor_names.treatment:block_factor_names.replication, fixed = ~ block_factor_names.treatment,
+                                  spatial = ~PSANOVA(X, Y, nseg = c(nX, nY), nest.div = c(1,1)),
+                                  genotype = "genotype", genotype.as.random = TRUE, data = df_for_correction,
+                                  weights = df_for_correction$weights,
+                                  control = list(maxit = 100, tolerance = 1e-03, monitoring = 0))
 ```
