@@ -32,7 +32,7 @@ Alle  data for this example is provided, also the results of single steps that p
 
 ### Code for spatial correction in R-Package SpATS
 
-A basic code for spatial correction in SpATS to provide a starting point:
+A basic code for temporal/spatial correction in SpATS to provide a starting point:
 
 Load the SpATS package:
 ```R
