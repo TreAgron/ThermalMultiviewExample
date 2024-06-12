@@ -11,8 +11,11 @@ Input needed:
 The Agisoft Metashape project , the DEM and the geojson must all be in the same cartesian geographic reference system.
 
 ### Troubleshooting:
-If geometry type of the geojson is Multipolygon and not polygon, the backprojection won't work. To change geometry type from Multipolygon to Polygon, open the geojson file in Qgis and:
-- Vector
-- Geometry Tools
-- Multiparts to Singleparts
-- Save
+If geometry type of the geojson is Multipolygon and not polygon, the backprojection won't work. To change geometry type from Multipolygon to Polygon, open the geojson file in Qgis and do the following:
+- Make sure "Processing" plugin is activated
+- Click "Vector"
+- Click "Geometry Tools"
+- Click "Multiparts to Singleparts"
+- Choose the geojson file as input layer
+- Click "Run"
+- Save the new layer as geojson
