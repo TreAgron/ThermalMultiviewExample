@@ -2,9 +2,9 @@
 
 This repository is a tutorial to use multi-view for analysis of drone-base thermal images. It contains a description of the process, example code and all example data required. It's suggested to work through this example and make it run on your computer before you try it on your own data.
 
-This repository is related to the publication "Improving drone-based uncalibrated estimates of wheat canopy temperature in plot experiments by accounting for confounding factors in a multi-view analysis", published in [ISPRS Journal of Photogrammetry and Remote Sensing](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing) (https://doi.org/10.1016/j.isprsjprs.2024.09.015)[https://doi.org/10.1016/j.isprsjprs.2024.09.015].
+This repository is related to the publication "Improving drone-based uncalibrated estimates of wheat canopy temperature in plot experiments by accounting for confounding factors in a multi-view analysis", published in [ISPRS Journal of Photogrammetry and Remote Sensing](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing) ([https://doi.org/10.1016/j.isprsjprs.2024.09.015](https://doi.org/10.1016/j.isprsjprs.2024.09.015)).
 
-The research was conducted at and financed by (Agroscope)[https://www.agroscope.admin.ch/] in the group of (Cultivation Techniques and Varieties in Arable Farming)[https://www.agroscope.admin.ch/agroscope/en/home/about-us/organization/competence-divisions-strategic-research-divisions/plant-production/cultivation-techniques-varieties-arable-farming.html].
+The research was conducted at and financed by [Agroscope](https://www.agroscope.admin.ch) in the group of [Cultivation Techniques and Varieties in Arable Farming](https://www.agroscope.admin.ch/agroscope/en/home/about-us/organization/competence-divisions-strategic-research-divisions/plant-production/cultivation-techniques-varieties-arable-farming.html).
 
 ## General introduction on multi-view
 
